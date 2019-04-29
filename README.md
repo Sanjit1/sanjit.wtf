@@ -1,2 +1,2 @@
 # Sanjit1.github.io
-This is my wwebsite I need to renocate it
+This is my website I need to renovate it
