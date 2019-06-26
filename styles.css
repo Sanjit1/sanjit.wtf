@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    margin: 5px 0 0 5px;
+}
+
+h3{
+    margin: 5px 0 0 5px;
+}
+
+h4{
+    margin: 5px 0 5px 5px;
+}
+
+.special{
+    margin: 5px 0 5px 35px;
+}
+
+input{
+    width: 100px;
+    margin: 1px 10px;
+}
+
+button {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    -webkit-box-shadow: 6px 9px 18px #cfc7cf;
+    -moz-box-shadow: 6px 9px 18px #cfc7cf;
+    box-shadow: 6px 9px 18px #cfc7cf;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #8d85ad;
+    padding: 5px 5px 5px 5px;
+    border: solid #3e7496 2px;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+button:hover {
+    background: #3cfcaf;
+    text-decoration: none;
+  }
+
+.hbox{
+    content: "";
+    clear: both;
+}
+
+.vbox{
+    float: left;
+}
+
+
+div {
+    margin: auto; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  
+  li{
+      display: inline-block;
+      margin: 0 20px 0 0;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  li a img{
+      padding: 0;
+      margin: 0;
+  }
+
+Button {
+    background-color: #ADFF2F;     
+    border: none;    
+    color: white;    
+    padding: 15px 32px;    
+    text-align: center;    
+    text-decoration: none;    
+    display: inline-block;    
+    font-size: 16px;    
+    margin: 4px 2px;   
+    border-radius: 4px;
+    border: 2px solid #f44336;
+    -webkit-transition-duration: 0.4s;    
+    transition-duration: 0.4s;
+}
+Button:hover {
+    background-color: #f8f8ff;     
+    color: white; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)}
