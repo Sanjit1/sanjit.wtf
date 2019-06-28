@@ -3,42 +3,42 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    display: block;
 }
-h2{
-    margin: 5px 0 0 5px;
+
+.title {
+    text-align: center;
 }
 
 
-button {
-    -webkit-border-radius: 5;
-    -moz-border-radius: 5;
-    border-radius: 5px;
-    -webkit-box-shadow: 6px 9px 18px #cfc7cf;
-    -moz-box-shadow: 6px 9px 18px #cfc7cf;
-    box-shadow: 6px 9px 18px #cfc7cf;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 15px;
-    background: #8d85ad;
-    padding: 5px 5px 5px 5px;
-    border: solid #3e7496 2px;
-    text-decoration: none;
-    margin-left: 5px;
-  }
-  
   header{
       background-color: aliceblue;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
       height: 60px;
       display: flex;
       align-items: center;
+      top: 0;
+      overflow: hidden;
+      position: sticky;
+      position: -webkit-sticky;
   }
  header * {
      display: inline-block;
      padding: 5px;
+ }
+
+ .socialMedia {
+    display: flex;
+    align-content: center;
+    bottom: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+ }
+
+ .socialMedia *{
+     display:inline-block;
+     padding: 5px; 
  }
   
 
@@ -75,3 +75,4 @@ Button:hover {
     color: white; 
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 }
+
