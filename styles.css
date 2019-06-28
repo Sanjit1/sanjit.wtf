@@ -38,12 +38,9 @@ button {
   }
  header * {
      display: inline-block;
-
+     padding: 5px;
  }
   
- header li {
-     margin: 15px;
- }
 
   li a {
     color: #000;
