@@ -9,20 +9,8 @@ h2{
 }
 
 h3{
-    margin: 5px 0 0 5px;
-}
-
-h4{
-    margin: 5px 0 5px 5px;
-}
-
-.special{
-    margin: 5px 0 5px 35px;
-}
-
-input{
-    width: 100px;
-    margin: 1px 10px;
+    padding: 0;
+    margin: 0 5px 5px 5px;
 }
 
 button {
@@ -42,56 +30,37 @@ button {
     margin-left: 5px;
   }
   
-button:hover {
-    background: #3cfcaf;
-    text-decoration: none;
-  }
-
-.hbox{
-    content: "";
-    clear: both;
-}
-
-.vbox{
-    float: left;
-}
-
-
-div {
-    margin: auto; 
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
+    background-color: lightgreen;
   }
+
+img{
+    padding: 0;
+    margin: 0 ;
+}
   
   
   li{
       display: inline-block;
-      margin: 0 20px 0 0;
   }
   
   li a {
-    display: block;
     color: #000;
-    padding: 8px 16px;
     text-decoration: none;
   }
   
   li a.active {
-    background-color: #4CAF50;
-    color: white;
+    color: firebrick;
   }
   
   li a:hover:not(.active) {
-    background-color: #4CAF50;
-    color: white;
+    color: firebrick;
   }
 
   li a img{
-      padding: 0;
       margin: 0;
   }
 
@@ -113,4 +82,5 @@ Button {
 Button:hover {
     background-color: #f8f8ff;     
     color: white; 
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)}
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
