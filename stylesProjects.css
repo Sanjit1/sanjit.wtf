@@ -11,6 +11,10 @@ body{
     padding-bottom: 0;
 }
 
+h3{
+    font-weight: normal;
+    margin-left: 50px;
+}
 
   header{
       background-color: aliceblue;
@@ -26,6 +30,11 @@ body{
      display: inline-block;
      padding: 5px;
  }
+ 
+ h2{
+    margin: 0 auto;
+    text-align: center;
+}
 
  .socialMedia {
     margin: 0 auto;
@@ -43,6 +52,38 @@ body{
  }
 
  .projectList *{
+     display:inline-block;
+     margin: 2px; 
+ }
+
+ .projectPages {
+    margin: 0 auto;
+ }
+
+ #calibrator .projectPages{
+    max-width: 670px;
+}
+
+#elonrun .projectPages{
+    max-width: 567px;
+}
+
+#hillclimb .projectPages{
+    max-width: ;
+}
+
+
+#scouter .projectPages{
+    max-width: ;
+}
+
+
+
+#evol .projectPages{
+    max-width: ;
+}
+
+ .projectPages *{
      display:inline-block;
      margin: 2px; 
  }
