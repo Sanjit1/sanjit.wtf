@@ -28,7 +28,7 @@ body{
 
  .socialMedia {
     margin: 0 auto;
-    max-width: 214px;
+    max-width: 229px;
  }
 
  .socialMedia *{
@@ -71,8 +71,17 @@ Button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 }
 
-#github:hover{
-    background: #ADFF2F;
-    content:url("GithubGrey.png");
+.media{
+    opacity: 0.7;
+    transition: opacity .075s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out
+}
+
+.media:hover{
+    opacity: 1.0;
+    transition: opacity .075s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
 
