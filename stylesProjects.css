@@ -8,6 +8,7 @@ body{
 
 .title {
     text-align: center;
+    padding-bottom: 0;
 }
 
 
@@ -35,7 +36,17 @@ body{
      display:inline-block;
      padding: 5px; 
  }
-  
+
+ .projectList {
+    margin: 0 auto;
+    max-width: 891px;
+ }
+
+ .projectList *{
+     display:inline-block;
+     margin: 2px; 
+ }
+
 
   li a {
     color: #000;
@@ -51,9 +62,9 @@ body{
   }
 
 Button {
-    background-color: #ADFF2F;     
+    background-color:coral;     
     border: none;    
-    color: white;    
+    color: black;    
     padding: 15px 32px;    
     text-align: center;    
     text-decoration: none;    
@@ -66,8 +77,8 @@ Button {
     transition-duration: 0.4s;
 }
 Button:hover {
-    background-color: #f8f8ff;     
-    color: white; 
+    background-color: chocolate;     
+    color: black; 
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 }
 
