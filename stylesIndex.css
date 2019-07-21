@@ -54,7 +54,7 @@ body{
   }
 
   Button {
-    background-color:#ffb869;     
+    background-color:coral;     
     border: none;    
     color: black;    
     padding: 15px 32px;    
@@ -68,6 +68,7 @@ body{
     -webkit-transition-duration: 0.4s;    
     transition-duration: 0.4s;
 }
+
 Button:hover {
     background-color: chocolate;     
     color: black; 
