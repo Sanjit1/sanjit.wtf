@@ -1,5 +1,5 @@
 body{
-    background-color: coral;
+    background-color: #fffde8;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -8,24 +8,24 @@ body{
 
 .title {
     text-align: center;
-    padding-bottom: 0;
 }
 
+
+  header{
+      background-color: #f9873a;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      top: 0;
+      overflow: hidden;
+      position: sticky;
+      position: -webkit-sticky;
+  }
 .notH{
     font-weight: normal;
     margin-left: 50px;
 }
 
-header{
-    background-color: aliceblue;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    top: 0;
-    overflow: hidden;
-    position: sticky;
-    position: -webkit-sticky;
-}
 header * {
    display: inline-block;
    padding: 5px;
