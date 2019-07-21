@@ -11,26 +11,25 @@ body{
     padding-bottom: 0;
 }
 
-h3{
+.notH{
     font-weight: normal;
     margin-left: 50px;
 }
 
-  header{
-      background-color: aliceblue;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      top: 0;
-      overflow: hidden;
-      position: sticky;
-      position: -webkit-sticky;
-  }
- header * {
-     display: inline-block;
-     padding: 5px;
- }
- 
+header{
+    background-color: aliceblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+}
+header * {
+   display: inline-block;
+   padding: 5px;
+}
  h2{
     margin: 0 auto;
     text-align: center;
@@ -88,8 +87,7 @@ h3{
      margin: 2px; 
  }
 
-
-  li a {
+ li a {
     color: #000;
     text-decoration: none;
 }
