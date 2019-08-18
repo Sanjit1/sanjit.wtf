@@ -47,7 +47,7 @@ header * {
 
  .projectList {
     margin: 0 auto;
-    max-width: 891px;
+    max-width: 1063px;
  }
 
  .projectList *{
@@ -73,13 +73,17 @@ header * {
 
 
 #scouter .projectPages{
-    max-width: 520px;
+    max-width: 354px;
 }
 
 
 
 #evol .projectPages{
-    max-width: 381px;
+    max-width: 250px;
+}
+
+#mirror .projectPages{
+    max-width: 250px;
 }
 
  .projectPages *{
