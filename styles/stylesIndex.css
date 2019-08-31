@@ -36,9 +36,9 @@ body{
      padding: 5px; 
  }
 
-
-
- 
+.mainBody{
+    z-index: -1;
+}
 
   li a {
     color: #000;
@@ -90,4 +90,3 @@ Button:hover {
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
 }
-
