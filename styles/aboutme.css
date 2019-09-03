@@ -91,3 +91,17 @@ Button:hover {
     -webkit-transition: opacity .55s ease-in-out;
 }
 
+.galleryParent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    width: 100%;
+    margin: 0;
+}
+
+.gallery {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    width: 400px;
+  }
