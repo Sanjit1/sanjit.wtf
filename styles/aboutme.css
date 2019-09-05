@@ -105,3 +105,11 @@ Button:hover {
     padding: 10px;
     width: 400px;
   }
+
+
+  .currentProject{
+    border: 5px solid;
+    border-color: #000;
+    width: 500px;
+    height: 500px;
+  }
