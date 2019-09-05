@@ -98,3 +98,12 @@ Button:hover {
   margin-right: auto;
   width: 25%;
 }
+
+
+
+.currentProject{
+  border: 5px solid;
+  border-color: #000;
+  width: 500px;
+  height: 500px;
+}
