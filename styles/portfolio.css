@@ -91,3 +91,4 @@ Button:hover {
     -webkit-transition: opacity .55s ease-in-out;
 }
 
+#cat { position: absolute; left: -1000px; }

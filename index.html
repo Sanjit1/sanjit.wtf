@@ -65,6 +65,7 @@
 
   <center>
     <h1 id="nameIndex">This is Sanjit Sarda Bois</h1>
+    <div class = "sanjitDraw"></div>
 
     <img src="pics/home.gif" alt="Home" class="home">
     <br>
@@ -90,6 +91,19 @@
   </div>
 
   <script src="cookies.js"></script>
+  <script src="anime.min.js"></script>
+  <script>
+
+    anime({
+      targets: '.svg .sanjitDraw path',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutSine',
+      duration: 1500,
+      delay: function (el, i) { return i * 250 },
+      direction: 'alternate',
+      loop: true
+    });
+  </script>
 </body>
 
 </html>
