@@ -53,9 +53,11 @@
     <h1 class="title">Computer Science Principles Projects</h1>
     <center>
       <div id="scratch" style="width: 480px; height: 270px;">
-          <a href="https://scratch.mit.edu"><img id="cat"src="pics/Scratch_Cat.png" height="90px"></a>
-        </div>
+        <a href="https://scratch.mit.edu"><img id="cat" src="pics/Scratch_Cat.png" height="90px"></a>
+      </div>
       <h2>This is a Scratch program I wrote for the Class</h2>
+      <iframe allowtransparency="true" width="485" height="402"
+        src="//scratch.mit.edu/projects/embed/328426732/?autostart=false" frameborder="0" allowfullscreen></iframe>
     </center>
 
   </div>
@@ -81,8 +83,8 @@
       var width = 480;
       var height = 270;
 
-      var x = Math.floor((Math.random() * width) - 239 + ($(document).width()/2));
-      var y = Math.floor((Math.random() * height) + 100 );
+      var x = Math.floor((Math.random() * width) - 239 + ($(document).width() / 2));
+      var y = Math.floor((Math.random() * height) + 100);
       $("#cat").animate({
         left: x,
         top: y
