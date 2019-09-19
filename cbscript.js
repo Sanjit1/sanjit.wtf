@@ -1,2 +1,0 @@
-document.head.innerHTML = "Yess";
-
