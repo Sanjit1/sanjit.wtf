@@ -19,7 +19,13 @@ function requestName() {
     var txt;
     var person = prompt("Hmm, Looks like you are new to this site. What is your name?", "");
     if (person == null || person == "" || person == " ") {
-        sendSad();
+        var result = 'noCookie';
+        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var charactersLength = characters.length;
+        for (var i = 0; i < 5; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        document.cookie = "name=" + result;
     } else {
         document.cookie = "name=" + person;
     }
