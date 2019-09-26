@@ -77,7 +77,7 @@ Button:hover {
     border: 2px solid #1a5764;
 }
 
-.media{
+.media{ 
     opacity: 0.7;
     transition: opacity .075s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
