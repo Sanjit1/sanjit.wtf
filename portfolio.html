@@ -124,6 +124,20 @@
   <script src="cookies.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0) // If Internet Explorer, return version number
+    {
+        alert('No.No No No. No means No. Stop using Internet Explorer. Even Microsoft says it has to many security issues.');
+      
+    }
+    else  // If another browser, return 0
+    {
+    }
+    
+    
+    
     $(document).ready(function () {
       randomlyMoveImage();
     });
@@ -151,6 +165,10 @@
 
       setTimeout(randomlyMoveImage, 400);
     }    
+
+    
+
+    
   </script>
 </body>
 
