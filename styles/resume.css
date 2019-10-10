@@ -6,14 +6,9 @@
 .contact .phoneAndLinkedIn{
     display: inline-block;
 }
+
 .contact .phoneAndLinkedIn{
     float: right;
-}
-
-hr {
-    border-style: inset;
-    border-width: 1.25px;
-    border-color: #696969;
 }
 
 .education h2{
@@ -51,3 +46,28 @@ hr {
     display: inline-block;
 }
 
+.education hr {
+    border-style: inset;
+    border-width: 1.25px;
+    border-color: #696969;
+}
+
+.achievements h2{
+    text-align: center;
+}
+
+.achievements hr{
+    border-style: inset;
+    border-width: 1.25px;
+    border-color: #696969;
+}
+
+.achievements .position,
+.achievements .time{
+    display: inline-block;
+    font-style: italic;
+}
+
+.achievements .time{
+    float: right;
+}
