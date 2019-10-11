@@ -65,8 +65,8 @@
 
   <center>
     <h1 id="nameIndex">This is Sanjit Sarda Bois</h1>
-    <div class = "sanjitDraw"></div>
-
+    <div class="sanjitDraw"></div>
+    <h3>Say 'Show Commands'</h3>
     <img src="pics/home.gif" alt="Home" class="home">
     <br>
     <div class="currentProject">
@@ -91,18 +91,22 @@
   </div>
 
   <script src="cookies.js"></script>
-  <script src="anime.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
   <script>
+    if (annyang) {
+      console.log('here');
+      var commands = {
+        'show commands': function () {
+          console.log('here');
+          alert('None Yet :(');
+        }
+      };
+      annyang.addCommands(commands);
 
-    anime({
-      targets: '.svg .sanjitDraw path',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutSine',
-      duration: 1500,
-      delay: function (el, i) { return i * 250 },
-      direction: 'alternate',
-      loop: true
-    });
+      annyang.start();
+    }
+  </script>
+
   </script>
 </body>
 
