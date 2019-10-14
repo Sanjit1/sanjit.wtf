@@ -86,6 +86,10 @@ header * {
     max-width: 250px;
 }
 
+#nspireLoveCalc .projectPages{
+    max-width: 250px;
+}
+
  .projectPages *{
      display:inline-block;
      margin: 2px; 
