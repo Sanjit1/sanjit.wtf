@@ -73,7 +73,20 @@
   <center>
     <h1 id="nameIndex">This is Sanjit Sarda Bois</h1>
     
-    <img src="pics/popup.jpg" class="popup" alt="popup">
+        <!-- let's call the following div as the POPUP FRAME -->
+    <div id="popup" class="popup panel panel-primary">
+        
+        <!-- and here comes the image -->
+        <img src="pics/popup.jpg" alt="popup">
+            
+            <!-- Now this is the button which closes the popup-->
+        <div class="panel-footer">
+            <button id="close" class="btn btn-lg btn-primary">Close button</button>
+        </div>
+            
+            <!-- and finally we close the POPUP FRAME-->
+            <!-- everything on it will show up within the popup so you can add more things not just an image -->
+    </div>
             
 
     <img src="pics/home.gif" alt="Home" class="home">
@@ -117,7 +130,7 @@
     setTimeout(
   function() 
   {
-  var audio = new Audio('music/scream.mp3');
+  var audio = new Audio('music/scream.mp3.mp3');
 audio.play();
     $("#popup").hide().fadeIn(500);
   }, 5000);
