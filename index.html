@@ -113,7 +113,11 @@
   <script>
     $(document).ready(function () {
     //select the POPUP FRAME and show it
-    $("#popup").hide().fadeIn(10000);
+    setTimeout(
+  function() 
+  {
+    $("#popup").hide().fadeIn(500);
+  }, 5000);
 
     //close the POPUP if the button with id="close" is clicked
     $("#close").on("click", function (e) {
