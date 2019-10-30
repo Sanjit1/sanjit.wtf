@@ -118,7 +118,7 @@
             width="40" height="40"></a></li>
     </ul>
   </div>
-
+<audio id="audio" src="music/scream.mp3.mp3" hidden></audio>
   <script src="cookies.js"></script>
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -130,8 +130,8 @@
     setTimeout(
   function() 
   {
-  var audio = new Audio('music/scream.mp3.mp3');
-audio.play();
+  
+document.getElementById("audio").play();
     $("#popup").hide().fadeIn(500);
   }, 5000);
 
