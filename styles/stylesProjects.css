@@ -90,6 +90,10 @@ header * {
     max-width: 250px;
 }
 
+#sciolyPages .projectPages{
+    max-width: 363px;
+}
+
  .projectPages *{
      display:inline-block;
      margin: 2px; 

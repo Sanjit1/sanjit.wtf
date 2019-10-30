@@ -6,6 +6,7 @@ function clicked(name) {
     document.getElementById('evol').style.display="none";
     document.getElementById('mirror').style.display="none";
     document.getElementById('nspireLoveCalc').style.display="none";
+    document.getElementById('sciolyPages').style.display="none";
     document.getElementById(name).style.display="block";
     return false;
   }
