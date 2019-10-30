@@ -110,12 +110,16 @@
   <script src="cookies.js"></script>
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/audiojs/audio.min.js"></script>
   <script>
     $(document).ready(function () {
     //select the POPUP FRAME and show it
+    $("#popup").hide()
     setTimeout(
   function() 
   {
+  var audio = new Audio('music/scream.mp3');
+audio.play();
     $("#popup").hide().fadeIn(500);
   }, 5000);
 
