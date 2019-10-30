@@ -6,6 +6,7 @@
   <link rel="shortcut icon" type="image/png" href="pics/Sanjit.png">
   <link rel="stylesheet" href="styles/stylesIndex.css">
   <title>Sanjit Sarda</title>
+  <style
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146792494-1"></script>
   <script>
@@ -72,7 +73,9 @@
 
   <center>
     <h1 id="nameIndex">This is Sanjit Sarda Bois</h1>
-
+    
+    <img src="pics/popup.jpg" alt="popup">
+            
 
     <img src="pics/home.gif" alt="Home" class="home">
     <br>
@@ -105,6 +108,21 @@
   </div>
 
   <script src="cookies.js"></script>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+    //select the POPUP FRAME and show it
+    $("#popup").hide().fadeIn(10000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+});
+
+  </script>
   <!--
   <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
   <script>
