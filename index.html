@@ -72,22 +72,15 @@
 
   <center>
     <h1 id="nameIndex">This is Sanjit Sarda Bois</h1>
-    
-        <!-- let's call the following div as the POPUP FRAME -->
+
+    <!-- let's call the following div as the POPUP FRAME -->
     <div id="popup" class="popup panel panel-primary">
-        
-        <!-- and here comes the image -->
-        <img src="pics/popup.jpg" alt="popup">
-            
-            <!-- Now this is the button which closes the popup-->
-        <div class="panel-footer">
-            <button id="close" class="btn btn-lg btn-primary">Close button</button>
-        </div>
-            
-            <!-- and finally we close the POPUP FRAME-->
-            <!-- everything on it will show up within the popup so you can add more things not just an image -->
+
+      <!-- and here comes the image -->
+      <img src="pics/popup.jpg" alt="popup" height="100%">
+
     </div>
-            
+
 
     <img src="pics/home.gif" alt="Home" class="home">
     <br>
@@ -118,30 +111,27 @@
             width="40" height="40"></a></li>
     </ul>
   </div>
-<audio id="audio" src="music/scream.mp3.mp3" hidden></audio>
+  <audio id="audio" src="music/scream.mp3" hidden></audio>
   <script src="cookies.js"></script>
-  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="/audiojs/audio.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
-    //select the POPUP FRAME and show it
-    $("#popup").hide()
-    setTimeout(
-  function() 
-  {
-  
-document.getElementById("audio").play();
-    $("#popup").hide().fadeIn(500);
-  }, 5000);
+      //select the POPUP FRAME and show it
+      $("#popup").hide()
+      setTimeout(
+        function () {
+          document.getElementById("audio").play();
+          document.getElementById("audio").volume = 1.0;
+          $("#popup").hide().fadeIn(100);
+        }, 5000);
+      function keyPress(e) {
+        if (e.key === "Escape") {
+          $("#popup").fadeOut(1000);
+        }
+      }
 
-    //close the POPUP if the button with id="close" is clicked
-    $("#close").on("click", function (e) {
-        e.preventDefault();
-        $("#popup").fadeOut(1000);
     });
-});
-
   </script>
   <!--
   <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
