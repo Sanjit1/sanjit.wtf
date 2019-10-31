@@ -111,9 +111,12 @@
             width="40" height="40"></a></li>
     </ul>
   </div>
-  <audio id="audio" src="music/scream.mp3" hidden></audio>
-  <script src="cookies.js"></script>
 
+
+  <audio id="audio" src="music/scream.mp3" hidden></audio>
+
+
+  <script src="cookies.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
@@ -121,7 +124,19 @@
       $("#popup").hide()
       setTimeout(
         function () {
-          document.getElementById("audio").play();
+          var audio = document.getElementById("audio");
+          var playPromise = audio.play();
+
+          if (playPromise !== undefined) {
+            playPromise.then(_ => {
+              // Automatic playback started!
+              // Show playing UI.
+            })
+              .catch(error => {
+                // Auto-play was prevented
+                // Show paused UI.
+              });
+          }
           document.getElementById("audio").volume = 1.0;
           $("#popup").hide().fadeIn(50);
         }, 2500);
