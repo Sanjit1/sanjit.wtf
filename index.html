@@ -73,15 +73,6 @@
   <center>
     <h1 id="nameIndex">This is Sanjit Sarda Bois</h1>
 
-    <!-- let's call the following div as the POPUP FRAME -->
-    <div id="popup" class="popup panel panel-primary">
-
-      <!-- and here comes the image -->
-      <img src="pics/popup.jpg" alt="popup" height="100%">
-
-    </div>
-
-
     <img src="pics/home.gif" alt="Home" class="home">
     <br>
     <div class="currentProject">
@@ -118,36 +109,7 @@
 
   <script src="cookies.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      //select the POPUP FRAME and show it
-      $("#popup").hide()
-      setTimeout(
-        function () {
-          var audio = document.getElementById("audio");
-          var playPromise = audio.play();
 
-          if (playPromise !== undefined) {
-            playPromise.then(_ => {
-              // Automatic playback started!
-              // Show playing UI.
-            })
-              .catch(error => {
-                // Auto-play was prevented
-                // Show paused UI.
-              });
-          }
-          document.getElementById("audio").volume = 1.0;
-          $("#popup").hide().fadeIn(50);
-        }, 1123);
-      function keyPress(e) {
-        if (e.key === "Escape") {
-          $("#popup").fadeOut(1000);
-        }
-      }
-
-    });
-  </script>
   <!--
   <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
   <script>
