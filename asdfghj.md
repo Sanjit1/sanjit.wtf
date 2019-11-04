@@ -21,3 +21,6 @@
 - Keep software Updated:
 	- `sudo apt-update`
 	- `sudo apt-upgrade`
+
+
+https://www.uscyberpatriot.org/Pages/Readme/cpxii_pr_se_ubu16_readme_cj64cwmh8h.aspx
