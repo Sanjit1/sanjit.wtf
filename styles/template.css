@@ -85,7 +85,3 @@ button:hover {
 	-moz-transition: opacity 0.55s ease-in-out;
 	-webkit-transition: opacity 0.55s ease-in-out;
 }
-
-body {
-	font-family: "Comic Sans MS", cursive, sans-serif;
-}
