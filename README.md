@@ -1,6 +1,6 @@
 # Sanjit1.github.io
 
-My website! Recently moved to [sanjit.**W**asn't **T**hat **F**unny (basically sanjit.wtf)](https://www.sanjit.wtf).
+My website! [sanjit.**W**asn't **T**hat **F**unny (basically sanjit.wtf)](https://www.sanjit.wtf).
 
 
 ![https://img.shields.io/badge/super%20duper%20awesome-heck%20ya25-brightgreen](https://img.shields.io/badge/super%20duper%20awesome-heck%20ya-brightgreen?style=flat)
