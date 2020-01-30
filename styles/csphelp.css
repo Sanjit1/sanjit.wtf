@@ -99,3 +99,7 @@ button:hover {
 	text-decoration: solid;
 	color: darkkhaki;
 }
+
+.adPlacement .adPlacement2 {
+	border: #000;
+}
